@@ -22,6 +22,9 @@
     font-size: 15px;
     line-height: 21px;
   }
+  .grid-template-columns{
+    auto:'repeat(auto-fit, minmax(200px, 1fr)'
+  }
 }
 
 *{
