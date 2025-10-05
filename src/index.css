@@ -22,8 +22,8 @@
     font-size: 15px;
     line-height: 21px;
   }
-  .grid-template-columns{
-    auto:'repeat(auto-fit, minmax(200px, 1fr)'
+  .grid-auto-fit{
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   }
 }
 
