@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
-@import "tailwindcss";
+@import 'tailwindcss';
 
 @layer utilities {
   .text-home-heading-small {
@@ -22,11 +22,14 @@
     font-size: 15px;
     line-height: 21px;
   }
-  .grid-auto-fit{
+  .grid-auto-fit {
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+  .spacing-height {
+    height: 500px;
   }
 }
 
-*{
-  font-family:Outfit;
+* {
+  font-family: Outfit;
 }
