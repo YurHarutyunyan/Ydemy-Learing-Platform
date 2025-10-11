@@ -35,7 +35,7 @@ function CourseDetails() {
   };
   useEffect(() => {
     fetchCourseData();
-  }, [courseData]);
+  }, [allCourses]);
 
   return courseData ? (
     <>
