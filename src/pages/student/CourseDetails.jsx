@@ -128,8 +128,9 @@ function CourseDetails() {
                                 <p
                                   onClick={() =>
                                     setPlayerData({
-                                      videoID:
-                                        lecture.lectureUrl.split('/').pop,
+                                      videoId: lecture.lectureUrl
+                                        .split('/')
+                                        .pop(),
                                     })
                                   }
                                   className='text-blue-500 cursor-pointer'
