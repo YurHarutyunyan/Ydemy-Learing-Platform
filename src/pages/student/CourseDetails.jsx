@@ -1,4 +1,4 @@
-import React, { useContext, useState, useEffect } from 'react';
+import React, { useContext, useState, useEffect, navigate } from 'react';
 import { useParams } from 'react-router-dom';
 import { AppContext } from '../../context/createAppContext';
 import Loading from '../../components/student/Loading';
